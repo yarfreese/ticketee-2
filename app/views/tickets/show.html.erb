@@ -1,5 +1,10 @@
 <div id='ticket'>
   <h2><%= @ticket.title %></h2>
+  <br>
   <%= link_to "Edit Ticket", [:edit, @project, @ticket] %>
+  <br>
+  <%= link_to "Delete Ticket", [@project, @ticket], :method => :delete,
+               :confirm => "Are you sure you want to delete tis ticket?" %>
+  <br>
   <%= simple_format(@ticket.description) %>
 </div>
