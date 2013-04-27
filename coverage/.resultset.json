@@ -17,6 +17,15 @@
         null,
         null
       ],
+      "/home/theresa/ROR/ticketee/spec/support/factories/user_factory.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
       "/home/theresa/ROR/ticketee/spec/controllers/tickets_controller_spec.rb": [
         1,
         null,
@@ -188,9 +197,28 @@
         null,
         null
       ],
+      "/home/theresa/ROR/ticketee/spec/integration/signing_in_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
       "/home/theresa/ROR/ticketee/spec/integration/signing_up_spec.rb": [
         1,
         null,
+        1,
         1,
         1,
         1,
@@ -253,6 +281,6 @@
         null
       ]
     },
-    "timestamp": 1367096800
+    "timestamp": 1367105641
   }
 }
