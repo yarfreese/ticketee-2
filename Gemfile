@@ -52,3 +52,5 @@ group :test do
   gem 'simplecov'
 end
 
+gem 'devise', '2.1.0'
+

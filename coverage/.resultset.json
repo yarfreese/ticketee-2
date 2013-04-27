@@ -188,6 +188,21 @@
         null,
         null
       ],
+      "/home/theresa/ROR/ticketee/spec/integration/signing_up_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
       "/home/theresa/ROR/ticketee/spec/integration/viewing_projects_spec.rb": [
         1,
         null,
@@ -238,6 +253,6 @@
         null
       ]
     },
-    "timestamp": 1366844842
+    "timestamp": 1367096800
   }
 }
