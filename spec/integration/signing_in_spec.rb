@@ -7,6 +7,9 @@ feature 'Signing in' do
 
   scenario 'Signing in via confirmation' do
     open_email "ticketee@example.com", :with_subject => /Confirmation/
+    # below is same as puts User.first.confirmation_token.inspect
+    p User.first.confirmation_token
+    p current_email.body
     click_first_link_in_email
     page.should have_content("Your account was successfully confirmed")
     page.should have_content("Signed in as ticketee@example.com")
