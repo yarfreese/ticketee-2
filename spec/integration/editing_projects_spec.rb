@@ -5,6 +5,7 @@ feature "Editing Projects" do
   before do
     # user = Factory(:user, :email => "ticketee@example.com")
     # sign_in_as!(user)
+    sign_in_as!(Factory(:admin_user))
     Factory(:project, :name => "TextMate 2")
     visit "/"
     click_link "TextMate 2"

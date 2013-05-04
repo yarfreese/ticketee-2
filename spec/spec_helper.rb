@@ -20,6 +20,8 @@ RSpec.configure do |config|
   # config.mock_with :flexmock
   # config.mock_with :rr
 
+  config.include Devise::TestHelpers, :type => :controller
+
   config.before do
     ActionMailer::Base.deliveries.clear
   end
