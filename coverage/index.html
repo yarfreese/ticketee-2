@@ -14,7 +14,7 @@
       <img src="./assets/0.7.1/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2013-05-04T16:29:23-07:00">2013-05-04T16:29:23-07:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2013-05-04T16:59:34-07:00">2013-05-04T16:59:34-07:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -25,15 +25,15 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.85
+         1.91
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
-    <b>17</b> files in total.
-    <b>251</b> relevant lines. 
-    <span class="green"><b>251</b> lines covered</span> and
+    <b>18</b> files in total.
+    <b>269</b> relevant lines. 
+    <span class="green"><b>269</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -49,6 +49,16 @@
       </tr>
     </thead>
     <tbody>
+      
+      <tr>
+        <td class="strong"><a href="#91153218085a7a5a4568d45a906233fd41c0a293" class="src_link" title="spec/controllers/projects_controller_spec.rb">spec/controllers/projects_controller_spec.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>38</td>
+        <td>18</td>
+        <td>18</td>
+        <td>0</td>
+        <td>2.9</td>
+      </tr>
       
       <tr>
         <td class="strong"><a href="#8da742ff456dda67e0d599ba1bb59277ee8d3333" class="src_link" title="spec/controllers/tickets_controller_spec.rb">spec/controllers/tickets_controller_spec.rb</a></td>
@@ -217,7 +227,7 @@
         <td>12</td>
         <td>12</td>
         <td>0</td>
-        <td>4.7</td>
+        <td>4.8</td>
       </tr>
       
     </tbody>
@@ -235,6 +245,252 @@
       </div>
     
       <div class="source_files">
+      
+        <div class="source_table" id="91153218085a7a5a4568d45a906233fd41c0a293">
+  <div class="header">
+    <h3>spec/controllers/projects_controller_spec.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>18</b> relevant lines. 
+      <span class="green"><b>18</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">require 'spec_helper'</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">describe ProjectsController do</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="4">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="6" data-linenumber="5">
+          <span class="hits">6</span>
+          
+          <code class="ruby">  let(:user) { Factory(:confirmed_user) }</code>
+        </li>
+      
+        <li class="covered" data-hits="6" data-linenumber="6">
+          <span class="hits">6</span>
+          
+          <code class="ruby">  let(:project) { mock_model(Project, :id =&gt; 1) }</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="7">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="8">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  context &quot;standard users&quot; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="9">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    before do</code>
+        </li>
+      
+        <li class="covered" data-hits="5" data-linenumber="10">
+          <span class="hits">5</span>
+          
+          <code class="ruby">      sign_in(:user, user)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="12">
+          
+          
+          <code class="ruby">    # it &quot;cannot access the new action&quot; do</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="13">
+          
+          
+          <code class="ruby">      # get :new</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="14">
+          
+          
+          <code class="ruby">      # response.should redirect_to('/')</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="15">
+          
+          
+          <code class="ruby">      # flash[:alert].should == &quot;You must be an admin to do that.&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="16">
+          
+          
+          <code class="ruby">    # end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="17">
+          
+          
+          <code class="ruby">    { :new =&gt; :get, </code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="18">
+          
+          
+          <code class="ruby">      :create =&gt; :post,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="19">
+          
+          
+          <code class="ruby">      :edit =&gt; :get,</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="20">
+          
+          
+          <code class="ruby">      :update =&gt; :put,</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="21">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      :destroy =&gt; :delete }.each do |action, method|</code>
+        </li>
+      
+        <li class="covered" data-hits="5" data-linenumber="22">
+          <span class="hits">5</span>
+          
+          <code class="ruby">      it &quot;cannot access the #{action} action&quot; do</code>
+        </li>
+      
+        <li class="covered" data-hits="5" data-linenumber="23">
+          <span class="hits">5</span>
+          
+          <code class="ruby">        sign_in(:user, user)</code>
+        </li>
+      
+        <li class="covered" data-hits="5" data-linenumber="24">
+          <span class="hits">5</span>
+          
+          <code class="ruby">        send(method, action, :id =&gt; project.id)</code>
+        </li>
+      
+        <li class="covered" data-hits="5" data-linenumber="25">
+          <span class="hits">5</span>
+          
+          <code class="ruby">        response.should redirect_to(root_path)</code>
+        </li>
+      
+        <li class="covered" data-hits="5" data-linenumber="26">
+          <span class="hits">5</span>
+          
+          <code class="ruby">        flash[:alert].should eql(&quot;You must be an admin to do that.&quot;)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="27">
+          
+          
+          <code class="ruby">      end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="28">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="29">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="30">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="31">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="32">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  it &quot;displays an error for a missing project&quot; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="33">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    get :show , :id =&gt; &quot;not-here&quot;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="34">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    response.should redirect_to(projects_path)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="35">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    message = &quot;The project you were looking for could not be found.&quot;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="36">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    flash[:alert].should == message</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="37">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="38">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
       
         <div class="source_table" id="8da742ff456dda67e0d599ba1bb59277ee8d3333">
   <div class="header">
@@ -2902,8 +3158,8 @@
           <code class="ruby">  factory :user do</code>
         </li>
       
-        <li class="covered" data-hits="21" data-linenumber="4">
-          <span class="hits">21</span>
+        <li class="covered" data-hits="22" data-linenumber="4">
+          <span class="hits">22</span>
           
           <code class="ruby">    sequence(:email) { |n| &quot;user#{n}@ticketee.com&quot; }</code>
         </li>
@@ -2944,8 +3200,8 @@
           <code class="ruby">      after_create do |user|</code>
         </li>
       
-        <li class="covered" data-hits="11" data-linenumber="11">
-          <span class="hits">11</span>
+        <li class="covered" data-hits="12" data-linenumber="11">
+          <span class="hits">12</span>
           
           <code class="ruby">        user.confirm!</code>
         </li>
