@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+# run - bundle install - when add stuff
+
 gem 'rails', '3.2.8'
 gem 'dynamic_form', '1.1.4'
 
@@ -54,4 +56,5 @@ group :test do
 end
 
 gem 'devise', '2.1.0'
+gem 'cancan', '1.6.7'
 
