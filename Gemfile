@@ -46,6 +46,7 @@ gem 'therubyracer'
 
 group :test, :development do
   gem 'rspec-rails', '~> 2.11'
+  gem 'launchy'
 end
 
 group :test do
