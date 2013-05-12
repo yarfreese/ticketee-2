@@ -1,5 +1,8 @@
 Ticketee::Application.routes.draw do
 
+  # added by generate command; overrides route that Devise uses
+  # get "users/confirmation"
+
   namespace :admin do 
     root :to => "base#index"
     resources :users
@@ -7,7 +10,10 @@ Ticketee::Application.routes.draw do
 
   # get "admin/users/index"
 
-  devise_for :users
+  devise_for :users, :controllers => { :registrations => "registrations" }
+    get '/awaiting_confirmation',
+        :to => "users#confirmation",
+        :as => 'confirm_user'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

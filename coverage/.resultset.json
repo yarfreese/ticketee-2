@@ -158,6 +158,37 @@
         null,
         null
       ],
+      "/home/theresa/ROR/ticketee/spec/controllers/users_controller_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/home/theresa/ROR/ticketee/spec/helpers/users_helper_spec.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null
+      ],
       "/home/theresa/ROR/ticketee/spec/integration/admin/creating_users_spec.rb": [
         1,
         null,
@@ -586,6 +617,7 @@
         1,
         1,
         1,
+        null,
         1,
         1,
         null,
@@ -655,8 +687,15 @@
         null,
         null,
         null
+      ],
+      "/home/theresa/ROR/ticketee/spec/views/users/confirmation.html.erb_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null
       ]
     },
-    "timestamp": 1368329290
+    "timestamp": 1368332725
   }
 }
