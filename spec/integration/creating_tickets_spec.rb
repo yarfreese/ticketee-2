@@ -8,6 +8,7 @@ feature "Creating Tickets" do
     # user = Factory(:user, :email => "ticketee@example.com")
     # user.confirm!
     define_permission!(user, "view", project)
+    define_permission!(user, "create tickets", project)
     sign_in_as!(user)
 
     visit '/'
