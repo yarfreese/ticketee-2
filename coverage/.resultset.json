@@ -42,11 +42,11 @@
       "/home/theresa/ROR/ticketee/spec/support/authentication_helpers.rb": [
         1,
         1,
-        44,
-        44,
-        44,
-        44,
-        44,
+        45,
+        45,
+        45,
+        45,
+        45,
         null,
         null,
         null,
@@ -793,6 +793,19 @@
         null,
         null
       ],
+      "/home/theresa/ROR/ticketee/spec/integration/seeds_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
       "/home/theresa/ROR/ticketee/spec/integration/signing_in_spec.rb": [
         1,
         null,
@@ -905,8 +918,24 @@
         null,
         null,
         null
+      ],
+      "/home/theresa/ROR/ticketee/db/seeds.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        1
       ]
     },
-    "timestamp": 1368594711
+    "timestamp": 1368595454
   }
 }
