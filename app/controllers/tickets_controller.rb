@@ -10,6 +10,7 @@ class TicketsController < ApplicationController
   def new
     @ticket = @project.tickets.build
     # similar to:  Ticket.new(:project_id => @project.id)
+    3.times { @ticket.assets.build }
   end
 
   def create

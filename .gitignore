@@ -16,3 +16,7 @@
 
 # Ignore SimpleCov coverage assets
 coverage/assets
+
+# Ignore test files
+/public/system
+
