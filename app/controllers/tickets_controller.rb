@@ -1,5 +1,5 @@
 class TicketsController < ApplicationController
-  
+
   before_filter :authenticate_user!
   before_filter :find_project
   before_filter :find_ticket, :only => [:show, :edit, :update, :destroy]
@@ -19,10 +19,10 @@ class TicketsController < ApplicationController
     if @ticket.save
       flash[:notice] = "Ticket has been created."
       redirect_to [@project, @ticket]
-    else 
+    else
       flash[:alert] = "Ticket has not been created."
       render :action => "new"
-    end	
+    end
   end
 
   def show
