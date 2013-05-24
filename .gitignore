@@ -15,7 +15,7 @@
 /tmp
 
 # Ignore SimpleCov coverage assets
-coverage/assets
+coverage
 
 # Ignore test files
 /public/system
