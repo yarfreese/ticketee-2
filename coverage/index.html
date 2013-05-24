@@ -14,27 +14,27 @@
       <img src="./assets/0.7.1/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2013-05-19T11:25:32-07:00">2013-05-19T11:25:32-07:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2013-05-23T19:00:58-07:00">2013-05-23T19:00:58-07:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="green">100.0%</span></span>
+    (<span class="covered_percent"><span class="green">97.52%</span></span>
      covered at
      <span class="covered_strength">
        <span class="green">
-         2.98
+         2.87
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
-    <b>27</b> files in total.
-    <b>537</b> relevant lines. 
-    <span class="green"><b>537</b> lines covered</span> and
-    <span class="red"><b>0</b> lines missed </span>
+    <b>29</b> files in total.
+    <b>565</b> relevant lines. 
+    <span class="green"><b>551</b> lines covered</span> and
+    <span class="red"><b>14</b> lines missed </span>
   </div>
   <table class="file_list">
     <thead>
@@ -71,6 +71,16 @@
       </tr>
       
       <tr>
+        <td class="strong"><a href="#09c2802f500d0f777a6df3056f325143f228b993" class="src_link" title="spec/controllers/files_controller_spec.rb">spec/controllers/files_controller_spec.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>51</td>
+        <td>24</td>
+        <td>24</td>
+        <td>0</td>
+        <td>1.5</td>
+      </tr>
+      
+      <tr>
         <td class="strong"><a href="#91153218085a7a5a4568d45a906233fd41c0a293" class="src_link" title="spec/controllers/projects_controller_spec.rb">spec/controllers/projects_controller_spec.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>53</td>
@@ -101,12 +111,22 @@
       </tr>
       
       <tr>
-        <td class="strong"><a href="#8f1c83671ea4b98e8b68ecc33ffd9622dbae2077" class="src_link" title="spec/integration/admin/assigning_permissions_spec.rb">spec/integration/admin/assigning_permissions_spec.rb</a></td>
+        <td class="strong"><a href="#1560ed76e02b8981577d4b202561414155650932" class="src_link" title="spec/helpers/files_helper_spec.rb">spec/helpers/files_helper_spec.rb</a></td>
         <td class="green strong">100.0 %</td>
+        <td>15</td>
+        <td>3</td>
+        <td>3</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#8f1c83671ea4b98e8b68ecc33ffd9622dbae2077" class="src_link" title="spec/integration/admin/assigning_permissions_spec.rb">spec/integration/admin/assigning_permissions_spec.rb</a></td>
+        <td class="green strong">98.08 %</td>
         <td>74</td>
         <td>52</td>
-        <td>52</td>
-        <td>0</td>
+        <td>51</td>
+        <td>1</td>
         <td>1.6</td>
       </tr>
       
@@ -152,12 +172,12 @@
       
       <tr>
         <td class="strong"><a href="#df41b607134d7ef01b6a9c08c50e88b912e48f2d" class="src_link" title="spec/integration/creating_tickets_spec.rb">spec/integration/creating_tickets_spec.rb</a></td>
-        <td class="green strong">100.0 %</td>
+        <td class="red strong">73.81 %</td>
         <td>69</td>
         <td>42</td>
-        <td>42</td>
-        <td>0</td>
-        <td>1.7</td>
+        <td>31</td>
+        <td>11</td>
+        <td>1.4</td>
       </tr>
       
       <tr>
@@ -172,12 +192,12 @@
       
       <tr>
         <td class="strong"><a href="#9be00d6221c7bacf49da7902723a5b21a6fa6c68" class="src_link" title="spec/integration/deleting_tickets_spec.rb">spec/integration/deleting_tickets_spec.rb</a></td>
-        <td class="green strong">100.0 %</td>
-        <td>28</td>
-        <td>19</td>
-        <td>19</td>
-        <td>0</td>
-        <td>1.1</td>
+        <td class="yellow strong">90.0 %</td>
+        <td>31</td>
+        <td>20</td>
+        <td>18</td>
+        <td>2</td>
+        <td>1.0</td>
       </tr>
       
       <tr>
@@ -317,7 +337,7 @@
         <td>12</td>
         <td>12</td>
         <td>0</td>
-        <td>14.3</td>
+        <td>14.8</td>
       </tr>
       
     </tbody>
@@ -582,6 +602,330 @@
           
           
           <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+      
+        <div class="source_table" id="09c2802f500d0f777a6df3056f325143f228b993">
+  <div class="header">
+    <h3>spec/controllers/files_controller_spec.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>24</b> relevant lines. 
+      <span class="green"><b>24</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">require 'spec_helper'</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">describe FilesController do</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="4">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="3" data-linenumber="5">
+          <span class="hits">3</span>
+          
+          <code class="ruby">  let(:good_user) { Factory(:confirmed_user) }</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="6">
+          <span class="hits">2</span>
+          
+          <code class="ruby">  let(:bad_user) { Factory(:confirmed_user) }</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="7">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="3" data-linenumber="8">
+          <span class="hits">3</span>
+          
+          <code class="ruby">  let(:project) { Factory(:project) }</code>
+        </li>
+      
+        <li class="covered" data-hits="3" data-linenumber="9">
+          <span class="hits">3</span>
+          
+          <code class="ruby">  let(:ticket) { Factory(:ticket, :project =&gt; project) }</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="10">
+          
+          
+          <code class="ruby">  #let(:ticket) { Factory(:ticket, :project =&gt; project,  :user =&gt; user) }</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="3" data-linenumber="12">
+          <span class="hits">3</span>
+          
+          <code class="ruby">  let(:path) { Rails.root + &quot;spec/fixtures/speed.txt&quot; }</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="13">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  let(:asset) do</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="14">
+          <span class="hits">2</span>
+          
+          <code class="ruby">    ticket.assets.create(:asset =&gt; File.open(path))</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="15">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="16">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="17">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  before do</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="18">
+          <span class="hits">2</span>
+          
+          <code class="ruby">    good_user.permissions.create!(:action =&gt; &quot;view&quot;, :thing =&gt; project)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="19">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="20">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="21">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  context &quot;users with access&quot; do</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="22">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="23">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    before do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="24">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      sign_in(:user, good_user)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="25">
+          
+          
+          <code class="ruby">      #save_and_open_page</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="26">
+          
+          
+          <code class="ruby">      #binding.pry</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="27">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="28">
+          
+          
+          <code class="ruby">  </code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="29">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    it &quot;can access assets in a project&quot; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="30">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      get 'show', :id =&gt; asset.id</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="31">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      response.body.should eql(File.read(path))</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="32">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="33">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="34">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="35">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="36">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  context &quot;users without access&quot; do</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="37">
+          
+          
+          <code class="ruby">   </code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="38">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    before do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="39">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      sign_in(:user, bad_user)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="40">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="41">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="42">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    it &quot;cannot access assets in this project&quot; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="43">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      get 'show', :id =&gt; asset.id</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="44">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      response.should redirect_to(root_path)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="45">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      flash[:alert].should eql(&quot;The asset you were looking for could not be found.&quot;)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="46">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="47">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="48">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="49">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="50">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="51">
+          
+          
+          <code class="ruby"></code>
         </li>
       
     </ol>
@@ -1458,14 +1802,122 @@
   </pre>
 </div>
       
+        <div class="source_table" id="1560ed76e02b8981577d4b202561414155650932">
+  <div class="header">
+    <h3>spec/helpers/files_helper_spec.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>3</b> relevant lines. 
+      <span class="green"><b>3</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">require 'spec_helper'</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="3">
+          
+          
+          <code class="ruby"># Specs in this file have access to a helper object that includes</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="4">
+          
+          
+          <code class="ruby"># the FilesHelper. For example:</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="5">
+          
+          
+          <code class="ruby">#</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="6">
+          
+          
+          <code class="ruby"># describe FilesHelper do</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="7">
+          
+          
+          <code class="ruby">#   describe &quot;string concat&quot; do</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="8">
+          
+          
+          <code class="ruby">#     it &quot;concats two strings with spaces&quot; do</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="9">
+          
+          
+          <code class="ruby">#       helper.concat_strings(&quot;this&quot;,&quot;that&quot;).should == &quot;this that&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="10">
+          
+          
+          <code class="ruby">#     end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
+          
+          
+          <code class="ruby">#   end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="12">
+          
+          
+          <code class="ruby"># end</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="13">
+          <span class="hits">1</span>
+          
+          <code class="ruby">describe FilesHelper do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="14">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  pending &quot;add some examples to (or delete) #{__FILE__}&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="15">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+      
         <div class="source_table" id="8f1c83671ea4b98e8b68ecc33ffd9622dbae2077">
   <div class="header">
     <h3>spec/integration/admin/assigning_permissions_spec.rb</h3>
-    <h4><span class="green">100.0 %</span> covered</h4>
+    <h4><span class="green">98.08 %</span> covered</h4>
     <div>
       <b>52</b> relevant lines. 
-      <span class="green"><b>52</b> lines covered</span> and
-      <span class="red"><b>0</b> lines missed.</span>
+      <span class="green"><b>51</b> lines covered</span> and
+      <span class="red"><b>1</b> lines missed.</span>
     </div>
   </div>
   
@@ -1886,8 +2338,8 @@
           <code class="ruby">    click_link &quot;Delete Ticket&quot;</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="70">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="70">
+          
           
           <code class="ruby">    page.should have_content(&quot;Ticket has been deleted.&quot;)</code>
         </li>
@@ -2829,11 +3281,11 @@
         <div class="source_table" id="df41b607134d7ef01b6a9c08c50e88b912e48f2d">
   <div class="header">
     <h3>spec/integration/creating_tickets_spec.rb</h3>
-    <h4><span class="green">100.0 %</span> covered</h4>
+    <h4><span class="red">73.81 %</span> covered</h4>
     <div>
       <b>42</b> relevant lines. 
-      <span class="green"><b>42</b> lines covered</span> and
-      <span class="red"><b>0</b> lines missed.</span>
+      <span class="green"><b>31</b> lines covered</span> and
+      <span class="red"><b>11</b> lines missed.</span>
     </div>
   </div>
   
@@ -2879,19 +3331,19 @@
         <li class="covered" data-hits="4" data-linenumber="7">
           <span class="hits">4</span>
           
-          <code class="ruby">    user = Factory(:confirmed_user, :email =&gt; &quot;ticketee@example.com&quot;)</code>
+          <code class="ruby">    user = Factory(:confirmed_user, :email =&gt; &quot;ticketee@example.com&quot;, :password =&gt; &quot;password&quot;)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="8">
           
           
-          <code class="ruby">    # user = Factory(:user, :email =&gt; &quot;ticketee@example.com&quot;)</code>
+          <code class="ruby">    #user = Factory(:user, :email =&gt; &quot;ticketee@example.com&quot;)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="9">
           
           
-          <code class="ruby">    # user.confirm!</code>
+          <code class="ruby">    #user.confirm!</code>
         </li>
       
         <li class="covered" data-hits="4" data-linenumber="10">
@@ -2918,20 +3370,20 @@
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="4" data-linenumber="14">
-          <span class="hits">4</span>
+        <li class="covered" data-hits="3" data-linenumber="14">
+          <span class="hits">3</span>
           
           <code class="ruby">    visit '/'</code>
         </li>
       
-        <li class="covered" data-hits="4" data-linenumber="15">
-          <span class="hits">4</span>
+        <li class="covered" data-hits="3" data-linenumber="15">
+          <span class="hits">3</span>
           
           <code class="ruby">    click_link &quot;Internet Explorer&quot;</code>
         </li>
       
-        <li class="covered" data-hits="4" data-linenumber="16">
-          <span class="hits">4</span>
+        <li class="covered" data-hits="3" data-linenumber="16">
+          <span class="hits">3</span>
           
           <code class="ruby">    click_link &quot;New Ticket&quot;</code>
         </li>
@@ -2972,8 +3424,8 @@
           <code class="ruby">    #click_button &quot;Sign in&quot;</code>
         </li>
       
-        <li class="covered" data-hits="8" data-linenumber="23">
-          <span class="hits">8</span>
+        <li class="covered" data-hits="6" data-linenumber="23">
+          <span class="hits">6</span>
           
           <code class="ruby">    within(&quot;h2&quot;) { page.should have_content(&quot;New Ticket&quot;) }</code>
         </li>
@@ -3143,19 +3595,19 @@
         <li class="covered" data-hits="1" data-linenumber="51">
           <span class="hits">1</span>
           
-          <code class="ruby">  scenario &quot;Creating a ticket with an attachment&quot; do</code>
+          <code class="ruby">  scenario &quot;Creating a ticket with an attachment&quot;, :js =&gt; true do</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="52">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="52">
+          
           
           <code class="ruby">    fill_in &quot;Title&quot;, :with =&gt; &quot;Add documentation for blink tag&quot;</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="53">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="53">
           
-          <code class="ruby">    fill_in &quot;Description&quot;, :with =&gt; &quot;The blink tag has a speed attribute&quot;</code>
+          
+          <code class="ruby">    fill_in &quot;Description&quot;, :with =&gt; &quot;Blink tag's speed attribute&quot;</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="54">
@@ -3170,56 +3622,56 @@
           <code class="ruby">    # save_and_open_page</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="56">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="56">
+          
           
           <code class="ruby">    attach_file &quot;File #1&quot;, &quot;spec/fixtures/speed.txt&quot;</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="57">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="57">
+          
+          
+          <code class="ruby">    click_link &quot;Add another file&quot;</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="58">
+          
           
           <code class="ruby">    attach_file &quot;File #2&quot;, &quot;spec/fixtures/spin.txt&quot;</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="58">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="59">
           
-          <code class="ruby">    attach_file &quot;File #3&quot;, &quot;spec/fixtures/gradient.txt&quot;</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="59">
-          <span class="hits">1</span>
           
           <code class="ruby">    click_button &quot;Create Ticket&quot;</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="60">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="60">
+          
           
           <code class="ruby">    page.should have_content(&quot;Ticket has been created.&quot;)</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="61">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="61">
+          
           
           <code class="ruby">    within(&quot;#ticket .assets&quot;) do</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="62">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="62">
+          
           
           <code class="ruby">      page.should have_content(&quot;speed.txt&quot;)</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="63">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="63">
+          
           
           <code class="ruby">      page.should have_content(&quot;spin.txt&quot;)</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="64">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="64">
+          
           
           <code class="ruby">      page.should have_content(&quot;gradient.txt&quot;)</code>
         </li>
@@ -3381,11 +3833,11 @@
         <div class="source_table" id="9be00d6221c7bacf49da7902723a5b21a6fa6c68">
   <div class="header">
     <h3>spec/integration/deleting_tickets_spec.rb</h3>
-    <h4><span class="green">100.0 %</span> covered</h4>
+    <h4><span class="yellow">90.0 %</span> covered</h4>
     <div>
-      <b>19</b> relevant lines. 
-      <span class="green"><b>19</b> lines covered</span> and
-      <span class="red"><b>0</b> lines missed.</span>
+      <b>20</b> relevant lines. 
+      <span class="green"><b>18</b> lines covered</span> and
+      <span class="red"><b>2</b> lines missed.</span>
     </div>
   </div>
   
@@ -3485,76 +3937,94 @@
         <li class="covered" data-hits="1" data-linenumber="16">
           <span class="hits">1</span>
           
-          <code class="ruby">    visit '/'</code>
+          <code class="ruby">    binding.pry</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="17">
           <span class="hits">1</span>
           
-          <code class="ruby">    click_link project.name</code>
+          <code class="ruby">    visit '/'</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="18">
           <span class="hits">1</span>
           
-          <code class="ruby">    click_link ticket.title</code>
+          <code class="ruby">    click_link project.name</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="19">
+        <li class="covered" data-hits="1" data-linenumber="19">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby">  end</code>
+          <code class="ruby">    click_link ticket.title</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="20">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">  end</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="21">
-          <span class="hits">1</span>
+        <li class="never" data-hits="" data-linenumber="21">
           
-          <code class="ruby">  scenario &quot;Deleting a ticket&quot; do</code>
+          
+          <code class="ruby"></code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="22">
           <span class="hits">1</span>
           
+          <code class="ruby">  scenario &quot;Deleting a ticket&quot; do</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="23">
+          
+          
+          <code class="ruby">    #binding.pry</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="24">
+          
+          
+          <code class="ruby">    #save_and_open_page</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="25">
+          <span class="hits">1</span>
+          
           <code class="ruby">    click_link &quot;Delete Ticket&quot;</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="23">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="26">
+          
           
           <code class="ruby">    page.should have_content(&quot;Ticket has been deleted.&quot;)</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="24">
-          <span class="hits">1</span>
+        <li class="missed" data-hits="0" data-linenumber="27">
+          
           
           <code class="ruby">    page.current_url.should == project_url(project)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="25">
+        <li class="never" data-hits="" data-linenumber="28">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="26">
+        <li class="never" data-hits="" data-linenumber="29">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="27">
+        <li class="never" data-hits="" data-linenumber="30">
           
           
           <code class="ruby">end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="28">
+        <li class="never" data-hits="" data-linenumber="31">
           
           
           <code class="ruby"></code>
@@ -6056,8 +6526,8 @@
           <code class="ruby">  factory :user do</code>
         </li>
       
-        <li class="covered" data-hits="70" data-linenumber="4">
-          <span class="hits">70</span>
+        <li class="covered" data-hits="73" data-linenumber="4">
+          <span class="hits">73</span>
           
           <code class="ruby">    sequence(:email) { |n| &quot;user#{n}@ticketee.com&quot; }</code>
         </li>
@@ -6098,8 +6568,8 @@
           <code class="ruby">      after_create do |user|</code>
         </li>
       
-        <li class="covered" data-hits="48" data-linenumber="11">
-          <span class="hits">48</span>
+        <li class="covered" data-hits="51" data-linenumber="11">
+          <span class="hits">51</span>
           
           <code class="ruby">        user.confirm!</code>
         </li>

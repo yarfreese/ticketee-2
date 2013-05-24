@@ -1,0 +1,98 @@
+[1m[1;34mActiveRecord::Persistence#methods[0m[0m: 
+  becomes    decrement!  destroyed?  increment!   persisted?  toggle!           update_attributes   update_column
+  decrement  delete      increment   new_record?  toggle      update_attribute  update_attributes!
+[1m[1;34mActiveRecord::Scoping#methods[0m[0m: populate_with_current_scope_attributes
+[1m[1;34mActiveRecord::Sanitization#methods[0m[0m: quoted_id
+[1m[1;34mActiveRecord::AttributeAssignment#methods[0m[0m: assign_attributes  attributes=
+[1m[1;34mActiveModel::Conversion#methods[0m[0m: to_model  to_partial_path
+[1m[1;34mActiveRecord::Integration#methods[0m[0m: cache_key  to_param
+[1m[1;34mActiveSupport::Callbacks#methods[0m[0m: run_callbacks
+[1m[1;34mActiveModel::Validations#methods[0m[0m: error_on  errors  errors_on  invalid?  read_attribute_for_validation  validates_with
+[1m[1;34mActiveModel::Validations::HelperMethods#methods[0m[0m: 
+  validates_acceptance_of    validates_exclusion_of  validates_inclusion_of  validates_numericality_of  validates_size_of
+  validates_confirmation_of  validates_format_of     validates_length_of     validates_presence_of    
+[1m[1;34mActiveRecord::Validations#methods[0m[0m: valid?
+[1m[1;34mActiveRecord::Locking::Pessimistic#methods[0m[0m: lock!  with_lock
+[1m[1;34mActiveRecord::Locking::Optimistic#methods[0m[0m: locking_enabled?
+[1m[1;34mActiveModel::AttributeMethods#methods[0m[0m: respond_to_without_attributes?
+[1m[1;34mActiveRecord::AttributeMethods#methods[0m[0m: 
+  attribute_for_inspect  attribute_missing  attribute_names  attribute_present?  attributes  column_for_attribute  has_attribute?  [1;31mmethod_missing[0m  respond_to?
+[1m[1;34mActiveRecord::AttributeMethods::Read#methods[0m[0m: read_attribute
+[1m[1;34mActiveRecord::AttributeMethods::Write#methods[0m[0m: raw_write_attribute
+[1m[1;34mActiveRecord::AttributeMethods::BeforeTypeCast#methods[0m[0m: attributes_before_type_cast
+[1m[1;34mActiveRecord::AttributeMethods::Query#methods[0m[0m: query_attribute
+[1m[1;34mActiveRecord::AttributeMethods::PrimaryKey#methods[0m[0m: to_key
+[1m[1;34mActiveModel::Dirty#methods[0m[0m: changed  changed?  changed_attributes  changes  previous_changes
+[1m[1;34mActiveRecord::AttributeMethods::Serialization#methods[0m[0m: read_attribute_before_type_cast  type_cast_attribute_for_write
+[1m[1;34mActiveRecord::Callbacks#methods[0m[0m: touch
+[1m[1;34mActiveRecord::Associations#methods[0m[0m: association  association_cache  clear_association_cache
+[1m[1;34mActiveRecord::IdentityMap#methods[0m[0m: reinit_with
+[1m[1;34mActiveRecord::NestedAttributes#methods[0m[0m: _destroy
+[1m[1;34mActiveRecord::AutosaveAssociation#methods[0m[0m: changed_for_autosave?  mark_for_destruction  marked_for_destruction?  reload
+[1m[1;34mActiveModel::Serialization#methods[0m[0m: read_attribute_for_serialization
+[1m[1;34mActiveModel::Serializers::JSON#methods[0m[0m: as_json  from_json
+[1m[1;34mActiveModel::Serializers::Xml#methods[0m[0m: from_xml
+[1m[1;34mActiveRecord::Serialization#methods[0m[0m: serializable_hash  to_xml
+[1m[1;34mActiveRecord::Transactions#methods[0m[0m: 
+  add_to_transaction  committed!  destroy  rollback_active_record_state!  rolledback!  save  save!  transaction  with_transaction_returning_status
+[1m[1;34mActiveRecord::Aggregations#methods[0m[0m: clear_aggregation_cache
+[1m[1;34mPaperclip::CallbackCompatability::Rails3::Running#methods[0m[0m: run_paperclip_callbacks
+[1m[1;34mActiveRecord::Base#methods[0m[0m: 
+  <=>                      _initialize_callbacks        _validation_callbacks               frozen?                     reflections=                             
+  ==                       _initialize_callbacks=       _validation_callbacks=              hash                        reflections?                             
+  []                       _initialize_callbacks?       _validation_callbacks?              include_root_in_json        schema_format                            
+  []=                      _mass_assignment_sanitizer   _validators                         include_root_in_json=       serialized_attributes                    
+  _accessible_attributes   _mass_assignment_sanitizer=  _validators=                        include_root_in_json?       serialized_attributes=                   
+  _accessible_attributes=  _mass_assignment_sanitizer?  _validators?                        init_with                   serialized_attributes?                   
+  _accessible_attributes?  _protected_attributes        attachment_definitions              initialize_dup              skip_time_zone_conversion_for_attributes 
+  _active_authorizer       _protected_attributes=       attachment_definitions=             inspect                     skip_time_zone_conversion_for_attributes?
+  _active_authorizer=      _protected_attributes?       attachment_definitions?             lock_optimistically         store_full_sti_class                     
+  _active_authorizer?      _rollback_callbacks          attribute_method_matchers           logger                      store_full_sti_class=                    
+  _attr_readonly           _rollback_callbacks=         attribute_method_matchers?          nested_attributes_options   store_full_sti_class?                    
+  _attr_readonly?          _rollback_callbacks?         attribute_types_cached_by_default   nested_attributes_options?  table_name_prefix                        
+  _commit_callbacks        _save_callbacks              auto_explain_threshold_in_seconds   partial_updates             table_name_prefix?                       
+  _commit_callbacks=       _save_callbacks=             auto_explain_threshold_in_seconds?  partial_updates=            table_name_suffix                        
+  _commit_callbacks?       _save_callbacks?             configurations                      partial_updates?            table_name_suffix?                       
+  _create_callbacks        _touch_callbacks             connection                          pluralize_table_names       time_zone_aware_attributes               
+  _create_callbacks=       _touch_callbacks=            connection_handler                  pluralize_table_names?      timestamped_migrations                   
+  _create_callbacks?       _touch_callbacks?            connection_handler?                 primary_key_prefix_type     to_yaml                                  
+  _destroy_callbacks       _update_callbacks            default_scopes                      readonly!                   validation_context                       
+  _destroy_callbacks=      _update_callbacks=           default_scopes?                     readonly?                   validation_context=                      
+  _destroy_callbacks?      _update_callbacks?           default_timezone                    record_timestamps           yaml_initialize                          
+  _find_callbacks          _validate_callbacks          encode_with                         record_timestamps=        
+  _find_callbacks=         _validate_callbacks=         eql?                                record_timestamps?        
+  _find_callbacks?         _validate_callbacks?         freeze                              reflections               
+[1m[1;34m#<Module:0x9b49958>#methods[0m[0m: 
+  created_at                   description_before_type_cast  id_was                       reset_description!      title_changed?               user_id                 
+  created_at=                  description_change            id_will_change!              reset_id!               title_was                    user_id=                
+  created_at?                  description_changed?          project_id                   reset_project_id!       title_will_change!           user_id?                
+  created_at_before_type_cast  description_was               project_id=                  reset_title!            updated_at                   user_id_before_type_cast
+  created_at_change            description_will_change!      project_id?                  reset_updated_at!       updated_at=                  user_id_change          
+  created_at_changed?          id                            project_id_before_type_cast  reset_user_id!          updated_at?                  user_id_changed?        
+  created_at_was               id=                           project_id_change            title                   updated_at_before_type_cast  user_id_was             
+  created_at_will_change!      id?                           project_id_changed?          title=                  updated_at_change            user_id_will_change!    
+  description                  id_before_type_cast           project_id_was               title?                  updated_at_changed?        
+  description=                 id_change                     project_id_will_change!      title_before_type_cast  updated_at_was             
+  description?                 id_changed?                   reset_created_at!            title_change            updated_at_will_change!    
+[1m[1;34mTicket::GeneratedFeatureMethods#methods[0m[0m: 
+  asset_ids  asset_ids=  assets  assets=  build_project  build_user  create_project  create_project!  create_user  create_user!  project  project=  user  user=
+[1m[1;34mPaperclip::InstanceMethods#methods[0m[0m: attachment_for  destroy_attached_files  each_attachment  prepare_for_destroy  save_attached_files
+[1m[1;34mTicket#methods[0m[0m: 
+  _asset_post_process_callbacks    _one_time_conditions_valid_144?  _post_process_callbacks   assets_attributes=                     
+  _asset_post_process_callbacks=   _one_time_conditions_valid_146?  _post_process_callbacks=  autosave_associated_records_for_assets 
+  _asset_post_process_callbacks?   _one_time_conditions_valid_150?  _post_process_callbacks?  autosave_associated_records_for_project
+  _callback_before_167             _one_time_conditions_valid_154?  after_add_for_assets      autosave_associated_records_for_user   
+  _callback_before_167_object      _one_time_conditions_valid_156?  after_add_for_assets=     before_add_for_assets                  
+  _callback_before_169             _one_time_conditions_valid_160?  after_add_for_assets?     before_add_for_assets=                 
+  _callback_before_169_object      _one_time_conditions_valid_162?  after_remove_for_assets   before_add_for_assets?                 
+  _callback_before_171             _one_time_conditions_valid_166?  after_remove_for_assets=  before_remove_for_assets               
+  _callback_before_171_object      _one_time_conditions_valid_168?  after_remove_for_assets?  before_remove_for_assets=              
+  _callback_before_173             _one_time_conditions_valid_170?  asset                     before_remove_for_assets?              
+  _callback_before_173_object      _one_time_conditions_valid_172?  asset=                    validate_associated_records_for_assets 
+  _one_time_conditions_valid_142?  _one_time_conditions_valid_174?  asset?                  
+[1m[1;34mself.methods[0m[0m: __pry__
+[1m[1;34minstance variables[0m[0m: 
+  [0;34m@_already_called[0m           [0;34m@aggregation_cache[0m  [0;34m@attributes_cache[0m    [0;34m@errors[0m                  [0;34m@new_record_before_save[0m  [0;34m@relation[0m          
+  [0;34m@_paperclip_attachments[0m    [0;34m@association_cache[0m  [0;34m@changed_attributes[0m  [0;34m@marked_for_destruction[0m  [0;34m@previously_changed[0m      [0;34m@validation_context[0m
+  [0;34m@_start_transaction_state[0m  [0;34m@attributes[0m         [0;34m@destroyed[0m           [0;34m@new_record[0m              [0;34m@readonly[0m              
+[1m[1;34mlocals[0m[0m: _  __  _dir_  _ex_  _file_  _in_  _out_  _pry_
