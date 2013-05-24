@@ -4,7 +4,8 @@ feature "Creating Tickets" do
 
   before do
     project = Factory(:project, :name => "Internet Explorer")
-    user = Factory(:confirmed_user, :email => "ticketee@example.com", :password => "password")
+    user = Factory(:confirmed_user, :email => "ticketee@example.com")
+    #, :password => "password")
     #user = Factory(:user, :email => "ticketee@example.com")
     #user.confirm!
     define_permission!(user, "view", project)

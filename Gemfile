@@ -55,6 +55,7 @@ group :test do
   gem 'factory_girl', '2.6.4'
   gem 'simplecov'
   gem 'email_spec', '1.2.1'
+  gem 'database_cleaner', '0.7.2'
 end
 
 gem 'devise', '2.1.0'
